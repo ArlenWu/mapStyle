@@ -1,6 +1,6 @@
 import:
-  - ../skeleton.yaml
-  - ../road_shields.day.yaml
+  - https://raw.githubusercontent.com/ArlenWu/mapStyle/main/skeleton.yaml
+  - https://raw.githubusercontent.com/ArlenWu/mapStyle/main/road_shields.day.yaml
 global:
 
   ######################################################  SCENE  #######################################################
