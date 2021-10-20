@@ -1,6 +1,6 @@
 import:
-  - ./skeleton.yaml
-  - ./road_shields.day.yaml
+  - ../skeleton.yaml
+  - ../road_shields.day.yaml
 global:
 
   ######################################################  SCENE  #######################################################
