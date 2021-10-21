@@ -737,14 +737,14 @@ global:
     [11, 1.5px], [12, 2px], [13, 2.5px], [14, 3.5px], [15, 5px], [16, 9px], [17, 9px], [18, 25px], [19, 29px],
     [20, 46px]
   ]
-  minor_road_residential_fill: [[0, 'rgb(100,100,100)']]
-  minor_road_residential_tunnel_fill: rgb(100,100,100)
-  minor_road_residential_outline: rgb(100,100,100)
+  minor_road_residential_fill: [[13, 'rgb(204,205,205)'], [14, 'rgb(255, 255, 255)']]
+  minor_road_residential_tunnel_fill: rgb(227,227,227)
+  minor_road_residential_outline: rgb(200,201,198)
   minor_road_width: [[13, 0px], [14, 0px], [14, 0px], [15, 0px], [17, 6px], [18, 18px], [19, 24px], [20, 46px]]
-  minor_road_service_fill: [[0, 'rgb(100,100,100)']]
-  minor_road_service_tunnel_fill: rgb(100,100,100)
-  minor_road_service_outline: rgb(100,100,100)
-  minor_road_unpaved_fill: rgb(100,100,100)
+  minor_road_service_fill: [[13, 'rgb(204,205,205)'], [14, 'rgb(239,240,235)']]
+  minor_road_service_tunnel_fill: rgb(128,128,128)
+  minor_road_service_outline: rgb(203,205,203)
+  minor_road_unpaved_fill: rgb(239,240,235)
 
 
   ######################################################  PATHS  #######################################################
