@@ -169,7 +169,7 @@ global:
 ########################################################################################################################
 textures:
   icon_library:
-    url: icons/sprite-2x.png
+    url: https://js.api.here.com/v3/3.1/styles/omv/icons/sprite-2x.png
     # filtering: mipmap
     density: 2
     sprites:
@@ -196,10 +196,10 @@ textures:
 fonts:
   FiraGO:
     - weight: normal
-      url: ../fonts/FiraGO-Map.woff
+      url: https://js.api.here.com/v3/3.1/styles/omv/fonts/FiraGO-Map.woff
     - weight: normal
       style: italic
-      url: ../fonts/FiraGO-Italic.woff
+      url: https://js.api.here.com/v3/3.1/styles/omv/fonts/FiraGO-Italic.woff
 
 ########################################################################################################################
 #######################################################  STYLES  #######################################################
