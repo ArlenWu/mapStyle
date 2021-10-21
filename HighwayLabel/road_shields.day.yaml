@@ -4001,7 +4001,7 @@ global:
               icon: road_shield--generic
 textures:
   road_icons:
-    url: ./icons/road_icons-2x.png
+    url: https://js.api.here.com/v3/3.1/styles/omv/icons/road_icons-2x.png
     density: 2
     sprites:
       road_shield--CAN_british_columbia_1:
