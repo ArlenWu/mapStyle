@@ -196,10 +196,10 @@ textures:
 fonts:
   FiraGO:
     - weight: normal
-      url: https://js.api.here.com/v3/3.1/styles/omv/fonts/FiraGO-Map.woff
+      url: https://js.api.here.com/v3/3.1/styles/fonts/FiraGO-Map.woff
     - weight: normal
       style: italic
-      url: https://js.api.here.com/v3/3.1/styles/omv/fonts/FiraGO-Italic.woff
+      url: https://js.api.here.com/v3/3.1/styles/fonts/FiraGO-Italic.woff
 
 ########################################################################################################################
 #######################################################  STYLES  #######################################################
