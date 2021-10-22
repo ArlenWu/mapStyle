@@ -4,7 +4,7 @@ import:
 global:
 
   ######################################################  SCENE  #######################################################
-  scene_background_color: rgb(91,91,91)
+  scene_background_color: rgba(0,0,0,0)
   scene_sky_zenith_color: '#347BC0'
   scene_sky_horizon_color: '#EDF2F9'
   scene_sky_fog_color: '#FFFFFF'
