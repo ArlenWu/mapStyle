@@ -169,7 +169,7 @@ global:
 ########################################################################################################################
 textures:
   icon_library:
-    url: https://js.api.here.com/v3/3.1/styles/omv/icons/sprite-2x.png
+    url: icons/sprite-2x.png
     # filtering: mipmap
     density: 2
     sprites:
@@ -196,10 +196,10 @@ textures:
 fonts:
   FiraGO:
     - weight: normal
-      url: https://js.api.here.com/v3/3.1/styles/fonts/FiraGO-Map.woff
+      url: ../fonts/FiraGO-Map.woff
     - weight: normal
       style: italic
-      url: https://js.api.here.com/v3/3.1/styles/fonts/FiraGO-Italic.woff
+      url: ../fonts/FiraGO-Italic.woff
 
 ########################################################################################################################
 #######################################################  STYLES  #######################################################
@@ -274,6 +274,7 @@ layers:
       layer: earth
     draw:
       polygons:
+        visible: global.text_visible_layers
         order: 100
         color: global.land_color
   ################################################  LAND-USE AND AREAS  ################################################
@@ -285,6 +286,7 @@ layers:
     }
     draw:
       polygons:
+        visible: global.text_visible_layers
         order: global.feature_order
       lines:
         order: global.feature_order
@@ -603,6 +605,7 @@ layers:
     data: {source: omv, layer: water}
     draw:
       polygons:
+        visible: global.text_visible_layers
         order: global.feature_order
         color: global.water_color
     small_water:
@@ -626,6 +629,7 @@ layers:
           - $geometry: line
       draw:
         lines:
+          visible: global.text_visible_layers
           order: global.feature_order
           width: global.water_river_line_width
           color: global.water_color
@@ -736,6 +740,7 @@ layers:
         kind: country
       draw:
         translucent-lines:
+          visible: global.text_visible_admin
           color: global.country_boundary_color
           width: global.boundary.country.line.width
           outline:
@@ -746,6 +751,7 @@ layers:
       filter: {kind: [disputed, indefinite, indeterminate, lease_limit, line_of_control, overlay_limit]}
       draw:
         translucent-lines:
+          visible: global.text_visible_admin
           color: global.country_disputed_boundary_color
           join: round
           dash: global.boundary.other.line.dash
@@ -760,6 +766,7 @@ layers:
         kind_detail: [3, 4]
       draw:
         translucent-lines:
+          visible: global.text_visible_admin
           color: global.region_boundary_color
           width: global.boundary.state.line.width
           outline:
@@ -774,6 +781,7 @@ layers:
     data: {source: omv, layer: roads}
     draw:
       lines:
+        visible: global.text_visible_layers
         order: 340
         join: round
         cap: round
@@ -856,6 +864,7 @@ layers:
             color: global.highway_outline
             width: global.road.highway.outline.width
         center-lines:
+          visible: global.text_visible_layers
           order: global.feature_order_half_more
           color: global.highway_centerline_fill
           width: global.road.highway.centerline.width
@@ -864,6 +873,7 @@ layers:
           is_bridge: true
         draw:
           bridge:
+            visible: global.text_visible_layers
             color: global.highway_fill
             width: global.highway_width
       tunnel:
@@ -937,6 +947,7 @@ layers:
           is_bridge: true
         draw:
           bridge:
+            visible: global.text_visible_layers
             color: global.major_road_fill
             width: global.major_road_width
       tunnel:
@@ -1036,6 +1047,7 @@ layers:
             is_bridge: true
           draw:
             bridge:
+              visible: global.text_visible_layers
               color: global.minor_road_residential_fill
               width: global.minor_road_width
         tunnel:
