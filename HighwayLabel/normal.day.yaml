@@ -23,15 +23,16 @@ global:
   text_visible_water_labels: false
   text_visible_building: false
   text_visible_address: false
-  text_visible_roads: false
+  text_visible_roads: true
   text_visible_highway_roads: true
-  text_visible_major_roads: false
-  text_visible_minor_roads: false
+  text_visible_major_roads: true
+  text_visible_minor_roads: true
   text_visible_label: false
   text_visible_island: false
   text_visible_ferry: false
   text_visible_ski_run: false
   text_visible_chair_lift: false
+  text_visible_layers: false
   shields_visible: true
 
   ###################################################  UX LANGUAGE  ####################################################
