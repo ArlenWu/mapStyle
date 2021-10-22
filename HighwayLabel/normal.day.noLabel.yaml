@@ -286,9 +286,9 @@ global:
   glacier_color: rgb (232, 242, 255)
   woodland_color: rgb (186, 247, 176)
   forest_color: [
-    [0,  'rgb(91,91,91)']
+    [0,  'rgba(0,0,0,0)']
   ]
-  water_color: rgb (0, 0, 0)
+  water_color: rgba(0,0,0,0)
   water_river_line_width: [[10, 1px], [13, 2px], [14, 3px], [15, 4px], [16, 7px], [17, 15px], [18, 28px], [20, 46px]]
   water:
     default:
@@ -315,13 +315,13 @@ global:
           stroke:
             width: 1px
 
-  water_deep_color: rgb(137, 196, 250)
-  water_label_sea_color: rgb(77,147,221)
-  water_label_lake_color: rgb(34,105,191)
-  water_label_lake_outline_color: rgba(204, 230, 255, .47)
-  water_label_ocean_color: rgb(77, 147, 221)
-  water_label_bay_color: rgb(34, 105, 191)
-  water_label_bay_outline_color: rgba(204, 230, 255, .47)
+  water_deep_color: rgba(0,0,0,0)
+  water_label_sea_color: rgba(0,0,0,0)
+  water_label_lake_color: rgba(0,0,0,0)
+  water_label_lake_outline_color: rgba(0,0,0,0)
+  water_label_ocean_color: rgba(0,0,0,0)
+  water_label_bay_color: rgba(0,0,0,0)
+  water_label_bay_outline_color: rgba(0,0,0,0)
 
   ################################################  LAND-USE AND AREAS  ################################################
   landuse_default_label_color: [[15, 'rgb(95,100,110)'], [16, 'rgb(105,110,120)']]
@@ -353,20 +353,20 @@ global:
   landuse_military_label_outline_color: rgba(242,245,252,.58)
 
   builtup_area_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
-  builtup_area_outline_color: rgba(237,237,237,.5)
+  builtup_area_outline_color: rgba(0,0,0,0)
   builtup_area_outline_width: [[13, 0], [14, 2px]]
   golf_course_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
-  hospital_color: rgb (91, 91, 91)
+  hospital_color: rgba(0,0,0,0)
   # Applies to airport, harbor, industrial, rail yard, shopping complex:
   industrial_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
   national_park_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
   island:
     zoom: {min: 0, max: 15}
@@ -376,25 +376,25 @@ global:
         size: [[0, 10px], [11, 10px], [12, 11px], [13, 11px], [14, 12px], [15, 12px], [16, 13px]]
         stroke:
           width: 1px
-  island_color: rgb(91,91,91)
+  island_color: rgba(0,0,0,0)
   island_outline_color: rgba(250,253,255, .39)
   native_reservation_color: rgba (245, 231, 218, 0.78)
-  military_color: rgb(91,91,91)
-  park_color: rgb (91,91,91)
+  military_color: rgba(0,0,0,0)
+  park_color: rgba(0,0,0,0)
   # Applies to allotment, amusement, animal, cemetery, sports complex:
   green_area_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
   pedestrian_area_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
   aerodrome_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0))']
   ]
   runway_color: [
-    [0,  'rgb(91, 91, 91)']
+    [0,  'rgba(0,0,0,0)']
   ]
-  university_campus_color: rgb (91,91,91)
+  university_campus_color: rgba(0,0,0,0)
 
   ####################################################  BOUNDARIES  ####################################################
   boundary:
@@ -476,11 +476,11 @@ global:
         zoom: {min: 18}
         font:
           size: [[18, 12px],[22, 16px]]
-  building_color: rgb(91,91,91)
-  building_outline_color: [[0, 'rgb(91,91,91)']]
-  building_extrude_color: rgb(91,91,91)
-  building_label_color: rgb(91,91,91)
-  building_label_outline_color: rgb(91,91,91)
+  building_color: rgba(0,0,0,0)
+  building_outline_color: [[0, 'rgba(0,0,0,0)']]
+  building_extrude_color: rgba(0,0,0,0)
+  building_label_color: rgba(0,0,0,0)
+  building_label_outline_color: rgba(0,0,0,0)
 
   ######################################################################################################################
   ######################################################  ROADS  #######################################################
@@ -687,13 +687,13 @@ global:
 
   #####################################################  HIGHWAYS  #####################################################
   highway_fill: [
-    [0, 'rgb(140,140,140)']
+    [0, 'rgba(0,0,0,0)']
   ]
-  highway_tunnel_fill: rgb(140,140,140)
-  highway_tunnel_center_line: rgb(140,140,140)
-  highway_outline: rgb(140,140,140)
+  highway_tunnel_fill: rgba(0,0,0,0)
+  highway_tunnel_center_line: rgba(0,0,0,0)
+  highway_outline: rgba(0,0,0,0)
   highway_centerline_fill: [
-    [0, 'rgb(140,140,140)']
+    [0, 'rgba(0,0,0,0)']
   ]
   highway_width: [
     [6, 1px], [7, 2px], [8, 2.5px], [9, 3.5px], [11, 4px], [12, 5px], [13, 5.5px], [14, 7px], [15, 10px], [16, 14px],
@@ -708,58 +708,58 @@ global:
   ]
 
   ######################################################  ROADS  #######################################################
-  major_road_fill: [[0, 'rgb(100,100,100)']]
-  major_road_tunnel_fill: rgb(100,100,100)
+  major_road_fill: [[0, 'rgba(0,0,0,0)']]
+  major_road_tunnel_fill: rgba(0,0,0,0)
   major_road_link_width: [[13, 2px], [14, 3px], [15, 4px], [16, 5px], [17, 7px], [18, 18px], [19, 23px], [20, 35px]]
-  major_road_outline: [[0, 'rgb(100,100,100)']]
+  major_road_outline: [[0, 'rgba(0,0,0,0)']]
   major_road_width: [
     [8, 1px], [9, 2px], [10, 3px], [12, 3.5px], [13, 4px], [14, 6px], [15, 7px], [16, 11px], [17, 15px], [18, 34px],
     [19, 38px], [20, 62px]
   ]
-  major_road_secondary_fill: [[0, 'rgb(100,100,100)']]
-  major_road_secondary_tunnel_fill: rgb(100,100,100)
-  major_road_secondary_outline: rgb(100,100,100)
+  major_road_secondary_fill: [[0, 'rgba(0,0,0,0)']]
+  major_road_secondary_tunnel_fill: rgba(0,0,0,0)
+  major_road_secondary_outline: rgba(0,0,0,0)
   major_road_secondary_width: [
     [10, 1px], [12, 2px], [13, 3.5px], [14, 5px], [15, 7px], [16, 11px], [17, 12px], [18, 30px], [19, 34px], [20, 54px]
   ]
   major_road_secondary_link_width: [[13, 1px], [16, 4px], [17, 5px], [18, 10px], [19, 20px], [20, 30px]]
-  major_road_tertiary_fill: [[0, 'rgb(100,100,100)']]
-  major_road_tertiary_tunnel_fill: rgb(100,100,100)
-  major_road_tertiary_outline: rgb(100,100,100)
+  major_road_tertiary_fill: [[0, 'rgba(0,0,0,0)']]
+  major_road_tertiary_tunnel_fill: rgba(0,0,0,0)
+  major_road_tertiary_outline: rgba(0,0,0,0)
   major_road_tertiary_width: [
     [11, 1.5px], [12, 2px], [13, 2.5px], [14, 3.5px], [15, 5px], [16, 9px], [17, 9px], [18, 25px], [19, 29px],
     [20, 46px]
   ]
-  minor_road_residential_fill: [[0, 'rgb(100,100,100)']]
-  minor_road_residential_tunnel_fill: rgb(100,100,100)
-  minor_road_residential_outline: rgb(100,100,100)
+  minor_road_residential_fill: [[0, 'rgba(0,0,0,0)']]
+  minor_road_residential_tunnel_fill: rgba(0,0,0,0)
+  minor_road_residential_outline: rgba(0,0,0,0)
   minor_road_width: [[13, 0px], [14, 0px], [14, 0px], [15, 0px], [17, 6px], [18, 18px], [19, 24px], [20, 46px]]
-  minor_road_service_fill: [[0, 'rgb(100,100,100)']]
-  minor_road_service_tunnel_fill: rgb(100,100,100)
-  minor_road_service_outline: rgb(100,100,100)
-  minor_road_unpaved_fill: rgb(100,100,100)
+  minor_road_service_fill: [[0, 'rgba(0,0,0,0)']]
+  minor_road_service_tunnel_fill: rgba(0,0,0,0)
+  minor_road_service_outline: rgba(0,0,0,0)
+  minor_road_unpaved_fill: rgba(0,0,0,0)
 
 
   ######################################################  PATHS  #######################################################
-  path_pedestrian: rgb(100,100,100)
-  path_footway: rgb(100,100,100)
-  path_footway_tunnel_fill: rgb(100,100,100)
-  path_footway_cemetery: rgb(100,100,100)
-  path_footway_forest: rgb(100,100,100)
-  path_footway_park: rgb(100,100,100)
+  path_pedestrian: rgba(0,0,0,0)
+  path_footway: rgba(0,0,0,0)
+  path_footway_tunnel_fill: rgba(0,0,0,0)
+  path_footway_cemetery: rgba(0,0,0,0)
+  path_footway_forest: rgba(0,0,0,0)
+  path_footway_park: rgba(0,0,0,0)
 
 
   #####################################################  FERRIES  ######################################################
-  ferry_line_color: rgb(100,100,100)
-  ferry_label_color: rgb(100,100,100)
-  ferry_tunnel_color: rgb(100,100,100)
-  ferry_label_outline_color: rgb(100,100,100)
+  ferry_line_color: rgba(0,0,0,0)
+  ferry_label_color: rgba(0,0,0,0)
+  ferry_tunnel_color: rgba(0,0,0,0)
+  ferry_label_outline_color: rgba(0,0,0,0)
 
 
   #####################################################  RAILWAYS  #####################################################
-  rail_dash_background_color: rgb(100,100,100)
-  rail_outline_color: rgb(100,100,100)
-  rail_dash_color: [[0, 'rgb(100,100,100)']]
+  rail_dash_background_color: rgba(0,0,0,0)
+  rail_outline_color: rgba(0,0,0,0)
+  rail_dash_color: [[0, 'rgba(0,0,0,0)']]
 
   ####################################################  CONTINENTS  ####################################################
   continent:
