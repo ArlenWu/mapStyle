@@ -288,7 +288,7 @@ global:
   forest_color: [
     [0,  'rgb(91,91,91)']
   ]
-  water_color: rgb (0, 0, 0)
+  water_color: rgba(0,0,0,0)
   water_river_line_width: [[10, 1px], [13, 2px], [14, 3px], [15, 4px], [16, 7px], [17, 15px], [18, 28px], [20, 46px]]
   water:
     default:
