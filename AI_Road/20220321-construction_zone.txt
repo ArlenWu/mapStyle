@@ -1,0 +1,559 @@
+{
+    "response": {
+        "count": 20,
+        "data": {
+            "features": [
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.514385,
+                                    25.031838
+                                ],
+                                [
+                                    121.514673,
+                                    25.03113
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1646057361721212410,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:52:23",
+                        "first_detection_timestamp": "2022-02-28T14:05:15",
+                        "last_detection_timestamp": "2022-03-08T12:22:17",
+                        "number_of_detections": 3,
+                        "segment_id": 244450539
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.512233,
+                                    25.109916
+                                ],
+                                [
+                                    121.511902,
+                                    25.110196
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1646179991190749239,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:12:29",
+                        "first_detection_timestamp": "2022-03-02T00:10:49",
+                        "last_detection_timestamp": "2022-03-08T11:13:04",
+                        "number_of_detections": 7,
+                        "segment_id": 265887248
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.514007,
+                                    25.072048
+                                ],
+                                [
+                                    121.513886,
+                                    25.072051
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647035654259309070,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:13:09",
+                        "first_detection_timestamp": "2022-03-11T21:50:11",
+                        "last_detection_timestamp": "2022-03-13T13:46:57",
+                        "number_of_detections": 11,
+                        "segment_id": 24836065
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.513886,
+                                    25.072051
+                                ],
+                                [
+                                    121.513718,
+                                    25.072053
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647035653967110527,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:12:39",
+                        "first_detection_timestamp": "2022-03-11T21:50:11",
+                        "last_detection_timestamp": "2022-03-13T13:46:57",
+                        "number_of_detections": 11,
+                        "segment_id": 291356420
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.481836,
+                                    25.136898
+                                ],
+                                [
+                                    121.481745,
+                                    25.136812
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647218584843849539,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T13:14:29",
+                        "first_detection_timestamp": "2022-03-14T00:40:24",
+                        "last_detection_timestamp": "2022-03-14T06:51:28",
+                        "number_of_detections": 5,
+                        "segment_id": 332661264
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.482145,
+                                    25.136994
+                                ],
+                                [
+                                    121.482091,
+                                    25.136979
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647218584733563607,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T13:14:49",
+                        "first_detection_timestamp": "2022-03-14T00:40:24",
+                        "last_detection_timestamp": "2022-03-14T06:51:28",
+                        "number_of_detections": 5,
+                        "segment_id": 332661264
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.543967,
+                                    25.02479
+                                ],
+                                [
+                                    121.544751,
+                                    25.024746
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647307524346554893,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T15:28:25",
+                        "first_detection_timestamp": "2022-03-15T01:22:41",
+                        "last_detection_timestamp": "2022-03-15T03:19:24",
+                        "number_of_detections": 4,
+                        "segment_id": 200298337
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.52414,
+                                    25.096859
+                                ],
+                                [
+                                    121.524034,
+                                    25.097269
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1646192096189169470,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T10:38:04",
+                        "first_detection_timestamp": "2022-03-02T03:31:11",
+                        "last_detection_timestamp": "2022-03-14T04:24:00",
+                        "number_of_detections": 54,
+                        "segment_id": 229525804
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.514195,
+                                    25.072042
+                                ],
+                                [
+                                    121.514007,
+                                    25.072048
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647035654126821713,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:22:04",
+                        "first_detection_timestamp": "2022-03-11T21:50:11",
+                        "last_detection_timestamp": "2022-03-13T13:46:57",
+                        "number_of_detections": 11,
+                        "segment_id": 24836065
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.547894,
+                                    25.024562
+                                ],
+                                [
+                                    121.548249,
+                                    25.024539
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647307524263383178,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T13:54:52",
+                        "first_detection_timestamp": "2022-03-15T01:22:41",
+                        "last_detection_timestamp": "2022-03-15T01:48:47",
+                        "number_of_detections": 3,
+                        "segment_id": 307182098
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.605339,
+                                    25.057878
+                                ],
+                                [
+                                    121.605484,
+                                    25.057274
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647222367481303523,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T09:52:26",
+                        "first_detection_timestamp": "2022-03-14T01:43:57",
+                        "last_detection_timestamp": "2022-03-14T03:40:59",
+                        "number_of_detections": 3,
+                        "segment_id": 72576575
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.508922,
+                                    25.025156
+                                ],
+                                [
+                                    121.508602,
+                                    25.02542
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1644549091914767881,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T10:50:29",
+                        "first_detection_timestamp": "2022-02-11T03:08:10",
+                        "last_detection_timestamp": "2022-03-14T04:41:52",
+                        "number_of_detections": 84,
+                        "segment_id": 313644640
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.522565,
+                                    25.027003
+                                ],
+                                [
+                                    121.522734,
+                                    25.026987
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647323166094315444,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T15:14:39.960000",
+                        "first_detection_timestamp": "2022-03-15T05:43:03",
+                        "last_detection_timestamp": "2022-03-15T09:11:51",
+                        "number_of_detections": 3,
+                        "segment_id": 200298339
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.54671,
+                                    25.024637
+                                ],
+                                [
+                                    121.547894,
+                                    25.024562
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647307524200892391,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T13:55:54",
+                        "first_detection_timestamp": "2022-03-15T01:22:41",
+                        "last_detection_timestamp": "2022-03-15T01:48:47",
+                        "number_of_detections": 3,
+                        "segment_id": 307182098
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.530488,
+                                    25.026512
+                                ],
+                                [
+                                    121.530416,
+                                    25.026519
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1644375069294494139,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T16:20:58.437000",
+                        "first_detection_timestamp": "2022-02-09T02:48:22",
+                        "last_detection_timestamp": "2022-03-15T10:18:36",
+                        "number_of_detections": 147,
+                        "segment_id": 58976063
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.512068,
+                                    25.110383
+                                ],
+                                [
+                                    121.511992,
+                                    25.110297
+                                ],
+                                [
+                                    121.511902,
+                                    25.110196
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1646281335746315919,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T15:53:39",
+                        "first_detection_timestamp": "2022-03-03T04:19:36",
+                        "last_detection_timestamp": "2022-03-08T14:00:37",
+                        "number_of_detections": 3,
+                        "segment_id": 375299596
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.505366,
+                                    25.02859
+                                ],
+                                [
+                                    121.505482,
+                                    25.028468
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1646042163988482479,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T13:12:38",
+                        "first_detection_timestamp": "2022-02-28T09:52:07",
+                        "last_detection_timestamp": "2022-03-14T06:49:24",
+                        "number_of_detections": 28,
+                        "segment_id": 313644638
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.482091,
+                                    25.136979
+                                ],
+                                [
+                                    121.481836,
+                                    25.136898
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647218584788398021,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T13:15:19",
+                        "first_detection_timestamp": "2022-03-14T00:40:24",
+                        "last_detection_timestamp": "2022-03-14T06:51:28",
+                        "number_of_detections": 5,
+                        "segment_id": 332661264
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.514885,
+                                    25.072017
+                                ],
+                                [
+                                    121.514195,
+                                    25.072042
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1647035653820581217,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:20:44",
+                        "first_detection_timestamp": "2022-03-11T21:50:11",
+                        "last_detection_timestamp": "2022-03-13T13:46:57",
+                        "number_of_detections": 10,
+                        "segment_id": 24836065
+                    },
+                    "type": "Feature"
+                },
+                {
+                    "geometry": {
+                        "coordinates": [
+                            [
+                                [
+                                    121.466912,
+                                    25.123061
+                                ],
+                                [
+                                    121.467046,
+                                    25.123049
+                                ],
+                                [
+                                    121.469048,
+                                    25.122881
+                                ]
+                            ]
+                        ],
+                        "type": "MultiLineString"
+                    },
+                    "properties": {
+                        "event_id": 1646753908838957217,
+                        "event_type": "construction_zone",
+                        "expiration_timestamp": "2022-03-15T14:49:39",
+                        "first_detection_timestamp": "2022-03-08T15:36:10",
+                        "last_detection_timestamp": "2022-03-12T07:10:19",
+                        "number_of_detections": 4,
+                        "segment_id": 333293959
+                    },
+                    "type": "Feature"
+                }
+            ],
+            "type": "FeatureCollection"
+        }
+    },
+    "status": "OK"
+}
